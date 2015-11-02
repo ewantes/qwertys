@@ -454,7 +454,6 @@ body {
   display: none;
 }
 .maincontent {
-  margin-top: 570px;
   height: 780px;
   background-color: #fff;
 }
@@ -485,9 +484,6 @@ body {
 .maincontent .photo {
   height: 194px;
 }
-.maincontent .photo:hover .phoneback img {
-  display: block;
-}
 .maincontent .photo:first-child {
   padding-left: 0;
 }
@@ -501,6 +497,9 @@ body {
   position: relative;
   top: 23px;
   line-height: 24px;
+}
+.maincontent .imagemd:hover .phoneback img {
+  display: block;
 }
 .maincontent .imagemd img {
   width: 100%;
