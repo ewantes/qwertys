@@ -386,9 +386,3 @@ body {
 .cont-direct .carousel .direct-link ul li a:first-of-type {
   color: inherit;
 }
-td {
-  width: 70px;
-  height: 80px;
-  background-color: red;
-  border: 1px solid #000 !important;
-}
