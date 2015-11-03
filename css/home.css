@@ -14,7 +14,7 @@ body {
   margin-right: 0;
 }
 .wrapper {
-  height: 2895px;
+  height: 4246px;
   width: 100%;
 }
 .home-page-wrapper {
@@ -323,7 +323,7 @@ body {
 }
 .background-white {
   width: 100%;
-  height: 777px;
+  height: 1500px;
   position: absolute;
   top: 944px;
   background-color: #fff;
@@ -353,7 +353,7 @@ body {
   top: 3%;
 }
 .cont-direct .carousel {
-  height: 525px	;
+  height: 476px;
 }
 .cont-direct .carousel .row {
   margin: 0;
@@ -379,7 +379,7 @@ body {
   font-family: "PTSansCaptionRegular";
   color: #1c5281;
   padding-bottom: 19px;
-  padding-left: 52px;
+  padding-left: 41px;
 }
 .cont-direct .carousel .direct-link ul li:first-child {
   font-family: "PTSansCaptionBold";
@@ -454,7 +454,7 @@ body {
   display: none;
 }
 .maincontent {
-  height: 780px;
+  height: 745px;
   background-color: #fff;
 }
 .maincontent .maintext {
@@ -538,4 +538,79 @@ body {
   display: none;
   width: auto !important;
   height: auto !important;
+}
+.slider-table {
+  height: 500px;
+}
+#owl-demo-slider .item .column {
+  height: 500px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: red;
+}
+.begin-end {
+  height: 485px;
+  width: 70px;
+  position: absolute;
+  background-color: #6086a7;
+  opacity: 0.7;
+}
+.begin-end p {
+  padding-bottom: 37px;
+  padding-top: 31px;
+  padding-left: 10px;
+  font-family: "PTSansCaptionRegular";
+  font-size: 12px;
+  color: #fff;
+}
+.begin-end p:first-child {
+  padding-top: 28px;
+}
+.end {
+  right: 0;
+}
+.begin {
+  left: -70px;
+}
+.row-slider {
+  margin: 0;
+}
+.row-slider .col-md-8 {
+  padding: 0 !important;
+}
+.year {
+  width: 49%;
+  margin: 0 auto;
+  position: relative;
+}
+.year span {
+  padding: 0 39px;
+  color: #1c5281;
+  font-family: "PTSansCaptionRegular";
+}
+.mini-title {
+  height: 80px;
+  display: table;
+  position: relative;
+  width: 103%;
+  border-bottom: 1px solid #dddcc3;
+}
+.mini-title:first-child {
+  margin-top: 94px;
+}
+.mini-title img {
+  display: table-cell;
+  padding-top: 20px;
+}
+.mini-title span {
+  display: table-cell;
+  font-family: "PTSerifBold";
+  color: #1c5281;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.title-slider h1 {
+  font-family: "PTSerifBold";
+  font-size: 51px;
+  padding-left: 159px;
 }
