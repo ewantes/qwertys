@@ -873,7 +873,7 @@ $(document).ready(function(){
      $('ul',this).stop(true,true).slideDown(0);
   }, function () {
     $.data(this,'timer', setTimeout($.proxy(function() {
-      $('ul',this).stop(true,true).slideUp(200);
+      $('ul',this).stop(true,true).slideUp(0);
     }, this), 100));
   });
 
