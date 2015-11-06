@@ -266,7 +266,6 @@ body {
   font-size: 60px;
   color: #1c5281;
   font-size: 52px;
-  /*margin-left: 15px;*/
 }
 .cont-news-last .row .last-news-title h1:first-child {
   color: #000;
@@ -274,7 +273,6 @@ body {
 }
 .cont-news-last .row .last-news-title .customNavigation {
   padding-top: 16px;
-  /*padding-left: 12px;*/
 }
 .cont-news-last .row .last-news-title .customNavigation a {
   padding: 6px 6px;
@@ -333,12 +331,10 @@ body {
 }
 .cont-direct .title h1 {
   margin-top: 68px;
-  /*margin-left: 12%;*/
   font-family: "PTSerifBold";
   font-size: 51px;
 }
 .cont-direct .title span {
-  /*margin-left: 12%;*/
   margin-top: 35px;
   line-height: 27px;
   display: block;
@@ -364,11 +360,13 @@ body {
   height: 100%;
   padding: 0;
 }
+.cont-direct .carousel #owl-direct .owl-item {
+  margin-right: 5px;
+}
 .cont-direct .carousel #owl-direct .owl-item .item img {
   height: 75%;
   width: 115px;
   margin-top: 28px;
-  /*margin-left: 43px;*/
 }
 .cont-direct .carousel .direct-link ul {
   margin-top: 20px;
@@ -378,7 +376,6 @@ body {
   font-family: "PTSansCaptionRegular";
   color: #1c5281;
   padding-bottom: 19px;
-  /*padding-left: 41px;*/
 }
 .cont-direct .carousel .direct-link ul li:first-child {
   font-family: "PTSansCaptionBold";
@@ -564,10 +561,10 @@ body {
   padding-top: 28px;
 }
 .end {
-  right: 0;
+  right: 24px;
 }
 .begin {
-  left: -70px;
+  left: -62px;
 }
 .row-slider {
   margin: 0;
@@ -603,11 +600,15 @@ body {
   display: table-cell;
   font-family: "PTSerifBold";
   color: #1c5281;
-  font-size: 12px;
+  font-size: 11px;
   vertical-align: middle;
 }
 .title-slider h1 {
   font-family: "PTSerifBold";
   font-size: 51px;
-  /*padding-left: 159px;*/
+}
+.container-for-header {
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
