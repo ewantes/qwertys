@@ -84,3 +84,10 @@ strong { font-weight: bold; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
+
+
+@media (min-width: 1600px) {
+    .cont-news-last{
+      margin-top: 120px;
+    }
+}
