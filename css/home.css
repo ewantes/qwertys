@@ -36,9 +36,10 @@ body {
   height: 333px;
 }
 .home-page-header .dropdown {
-  position: absolute;
-  right: 4.2%;
-  top: 11.6%;
+  /*position: absolute;*/
+  /*right: 4.2%;*/
+  /*top: 11.6%;*/
+  margin-right: 30%;
 }
 .home-page-header .dropdown .lang-btn {
   border-color: rgba(0, 0, 0, 0);
@@ -63,7 +64,8 @@ body {
   outline: none;
 }
 .top-left-header {
-  height: 40%;
+  /*height: 40%;*/
+  padding-top: 35px;
   font-family: "PTSansCaptionRegular";
   font-size: 14px;
 }
@@ -72,16 +74,22 @@ body {
   padding: 0px 5px;
   vertical-align: bottom;
 }
+
+.top-left-header .hexagon {
+  right: 25px;
+}
+
 .bottom-left-header {
   height: 60%;
+  margin-top: 70px;
 }
 .bottom-left-header img {
-  position: absolute;
+  /*position: absolute;*/
   vertical-align: middle;
   width: 217px;
   height: 110px;
-  right: 15.5%;
-  top: 41%;
+  /*right: 15.5%;*/
+  /*top: 41%;*/
 }
 .hexagon {
   position: absolute;
@@ -215,13 +223,20 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  height: 37%;
-  width: 16.5%;
+  height: 150px;
+  width: 10.8%;
+}
+.support a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 .support span {
-  width: 54%;
-  display: block;
-  margin: 38px auto 0;
+  /*width: 54%;*/
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 15px;
   font-family: "PTSansCaptionRegular";
   font-size: 1.24em;
   text-align: center;
@@ -229,25 +244,30 @@ body {
   color: #17456c;
 }
 .support img {
-  position: absolute;
-  top: 62%;
-  right: 37%;
+  /*position: absolute;*/
+  /*top: 62%;*/
+  /*right: 37%;*/
+  display: block;
+  margin: 0 auto;
 }
 .bottom-right-header-home {
   height: 52%;
   width: 100%;
   color: #e6e5cf;
+  margin-top: 120px;
+  padding: 0 8px;
 }
 .bottom-right-header-home .title {
   font-family: "PTSerifRegular";
   font-size: 41px;
-  margin: 52px 54px;
+  /*margin: 52px 54px;*/
   display: block;
 }
 .bottom-right-header-home .subtitle {
   font-family: "PTSansCaptionRegular";
   font-size: 21px;
-  margin: -22px 269px 0 58px;
+  /*margin: -22px 269px 0 58px;*/
+  margin-top: 25px;
   display: block;
   line-height: 26px;
 }
@@ -395,6 +415,7 @@ body {
   height: 114px;
   background-color: #e6e5cf;
   top: 0;
+  left: 0;
   z-index: 300;
 }
 .active-search-toggle .cross-search {
@@ -406,8 +427,8 @@ body {
 }
 .active-search-toggle .input-search {
   display: block;
-  margin-left: 37%;
-  margin-top: 8%;
+  /*margin-left: 37%;*/
+  margin-top: 40px;
   height: 36px;
   font-size: 24px;
   border: 0;
@@ -608,7 +629,7 @@ body {
   font-size: 51px;
 }
 .container-for-header {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  /*height: 100%;*/
+  /*padding: 0;*/
+  /*margin: 0;*/
 }

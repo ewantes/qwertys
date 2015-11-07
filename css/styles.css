@@ -1569,6 +1569,7 @@ pre code {
   margin-left: auto;
   padding-left: 8px;
   padding-right: 8px;
+  max-width: 1600px;
 }
 /*@media (min-width: 768px) {
   .container {
