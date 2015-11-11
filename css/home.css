@@ -132,6 +132,7 @@ body {
 #ddmenu .hexagonq {
   position: absolute;
   width: 166px;
+  z-index: 5;
   background-color: #e6e5cf;
   margin: 47.92px 0;
   -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
